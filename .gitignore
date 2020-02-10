@@ -2,6 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/bin/Debug/netcoreapp2.1
+/bin
 /obj
 /.vs/Extensions/v16
+/.vs/Extensions/DesignTimeBuild/.dtbcache

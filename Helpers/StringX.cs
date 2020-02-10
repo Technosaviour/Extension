@@ -58,6 +58,25 @@ namespace Extensions.Helpers
             return string.IsNullOrEmpty(value) ? alternativeValue : value;
         }
 
+        /// <summary>
+        /// Checks if string is Null or Empty
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
+        public static bool IsNullOrEmpty(this string value)
+        {
+            return string.IsNullOrEmpty(value);
+        }
+
+        /// <summary>
+        /// Checks if string is null or whitespace
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
+        public static bool IsNullOrWhiteSpace(this string value)
+        {
+            return string.IsNullOrWhiteSpace(value);
+        }
 
     }
 }
